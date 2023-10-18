@@ -12,10 +12,10 @@ from sklearn.feature_extraction.text import CountVectorizer
 Data, lda, Model, Implementasi = st.tabs(['Data', 'LDA', 'Modelling', 'Implementasi'])
 
 with Data:
-   st.title("UTS Pencarian & Penambangan Web A")
-   st.text("Okhi Sahrul Barkah - 210411100112")
+   st.title("Impelementasi Latent Dirichlet Allocation (LDA) ")
+   st.text("Arbil Shofiyurrahman - 210411100016")
    st.subheader("Deskripsi Data")
-   st.write("Dimana Fitur yang ada di dalam data tersebut diantaranya:")
+   st.write("Fitur Fitur yang ada diantaranya:")
    st.text("1) NIM\n2) Judul\n3) Abstrak\n4) Program Studi\n5) Penulis\n6) Dosen Pembimbing 1\n7) Dosen Pembimbing 2\n8) Label")
    st.subheader("Data")
    data = pd.read_csv("DF_PTA.csv")
